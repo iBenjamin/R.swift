@@ -28,6 +28,6 @@ Pod::Spec.new do |spec|
 
   spec.dependency "R.swift.Library", "~> 3.0.2"
 
-  spec.preserve_paths = "rswift"
+  spec.preserve_paths = "**/*"
 
 end
